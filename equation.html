@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résolution d'une Équation du Second Degré</title>
+    <link rel="stylesheet" href="equation.css">
+</head>
+<body>
+    <script src="equation.js"></script>
+    <div class="first">
+        <h2>Mon Jeu</h2>
+        <p>Si les solutions sont réelles, le dinosaure se déplacera. Si les solutions sont complexes, l'aigle se déplacera.</p>
+    </div>
+    <div class="entete">
+        <div class="label-container">
+            <div class="input-container">
+                <input type="number" id="nbre1" placeholder="Nbre1">
+                <p class="variable">X² +</p>
+                <input type="number" id="nbre2" placeholder="Nbre2">
+                <p class="variable">+ X +</p>
+                <input type="number" id="nbre3" placeholder="Nbre3">
+            </div>
+            <div class="button-container">
+                <button onclick="resoudreEquation()">CALCULER</button>
+            </div>
+        </div>
+    </div>
+    <div class="solution1">
+        <img class="img1" src="dinausores.jpg" id="dinausores" alt="Image à déplacer">
+    </div>
+    <div class="solution2">
+        <img class="img2" src="aigle.jpg" id="aigle" alt="Image à déplacer">
+    </div>
+</body>
+</html>
